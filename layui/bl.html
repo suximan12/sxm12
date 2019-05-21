@@ -14,6 +14,7 @@
         }
         
         .Header .header_l img {
+            /* position: absolute; */
             width: 126px;
             height: 40px;
             margin-top: 8px;
@@ -57,22 +58,54 @@
         
         .Carousel img {
             width: 100%;
-            height: 380px;
+            height: auto;
         }
         
         .Content {
             width: 100%;
             height: 800px;
-            /* margin-top: 80px; */
+            margin-top: 450px;
             background: pink;
+            position: relative;
         }
         
         .yinqing {
             margin: 0 auto;
-            width: 80%;
-            height: 500px;
+            width: 65%;
+            height: 650px;
             margin-top: 10px;
             background: #F7FAFC;
+        }
+        
+        .yinqing p {
+            font-size: 24px;
+            height: 40px;
+            background: #fff;
+        }
+        
+        .yinqing p img {
+            width: 15px;
+            height: 20px;
+            margin-top: -5px;
+        }
+        
+        .yinqing .yinqing_c {
+            width: 100%;
+            height: 500px;
+            margin-top: 30px;
+            background: #F7FAFC;
+        }
+        
+        .engineImg {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .engineImg img {
+            height: 30px;
+            padding: 10px;
         }
     </style>
 </head>
@@ -81,12 +114,13 @@
     <div class="Header">
         <!-- 导航 -->
         <div class="header_l layui-row layui-col-md3  layui-col-sm6">
-            <img src="images/bl/download.png" alt="">
+            <img class="layui-hide-xs" src="images/bl/download.png" alt="">
+            <span class="layui-hide-md layui-show-xs-block" style="color:#fff;font-size: 18px;padding: 10px 20px;">白鹭科技</span>
         </div>
 
 
         <div class="header_c layui-row layui-col-md8 layui-col-sm0">
-            <ul>
+            <ul class="layui-hide-xs">
                 <li><a href="#">首页</a></li>
                 <li><a href="#">产品</a></li>
                 <li><a href="#">解决方案</a></li>
@@ -102,6 +136,7 @@
 
         <div class="header_r layui-row layui-col-md1 layui-col-sm6">
             <a href="http://www.egret.com/en/">EN</a>
+            <a href="#" class="layui-hide-md layui-show-xs-block" style="position: absolute;right: -30px;top: -1px ;font-size: 24px"><b>v</b></a>
         </div>
 
 
@@ -120,12 +155,33 @@
     <div class="Content">
         <!-- 内容部分 -->
         <div class="yinqing">
-            <p><img src="images/bl/pen.png" alt="">白鹭引擎</p>
-            <div class="yinqingc"></div>
+            <p><img src="images/bl/pen.png" alt="">&nbsp;&nbsp;白鹭科技</p>
+            <div class="yinqing_c">
+                <div class="engineTitle" style="font-size:32px;margin:32px 0px 10px 0px;text-align: center;">Efficient One-Stop Development Workflow</div>
+                <div class="engineText" style="font-size:20px; margin:0px 0px 30px 0px;color: #87888c;text-align: center;">2D/3D dual core rendering，Closed loop of development tool chain integration，
+                    <br> Whole development process，Starting from here</div>
+                <div class="engineImg">
+                    <img src="images/bl/engineLeft.png" alt="" style="height: 20px;margin-right: 3px;">
+                    <img src="images/bl/h5.png" alt="">
+                    <img src="images/bl/ap.png" alt="">
+                    <img src="images/bl/an.png" alt="">
+                    <img src="images/bl/fb.png" alt="">
+                    <img src="images/bl/bd.png" alt="">
+                    <img src="images/bl/qz.png" alt="">
+                    <img src="images/bl/wx.png" alt="">
+                    <img src="images/bl/engineRight.png" alt="" style="height: 20px;margin-right: 3px;">
+                </div>
+                <div class="engineImg_img">
+                    <img src="images/bl/engine1.png" alt="" style="width:632px;text-align: center;">
+                </div>
+
+            </div>
         </div>
-        <div class="anli"></div>
-        <div class="dongtai"></div>
-        <div class="boke"></div>
+
+
+        <div class=" anli "></div>
+        <div class="dongtai "></div>
+        <div class="boke "></div>
     </div>
 
 
