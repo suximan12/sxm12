@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>专业求职邮箱 - 超级简历 WonderCV</title>
+    <link rel="stylesheet" type="text/css" href="../css/WonderCV.css">
+    <link rel="stylesheet" href="../css/layui.css"  media="all">
+    <script type="text/javascript" src="../layui.js"></script>
+</head>
+
+<body id="welcome-signin">
+   <div class="container">
+    <p><img alt="超级简历WonderCV_LOGO" src="../images/WonderCV/download.png"></p>
+
+ <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+  <ul class="layui-tab-title" style="text-align: center;">
+    <li class="layui-this">注册</li>
+    <li>登录</li>
+  </ul>
+  <div class="layui-tab-content" style="height: 100px;margin-top: 30px;">
+    <div class="layui-tab-item layui-show">
+        <!-- 注册 -->
+     <form id="reg_with_phone" method="post">
+        <input type="hidden" name="UTF-8" value="✓">
+        <div class="form-inputs">
+            <div class="form-input input-with-prefix">
+                <span class="prefix">+86</span>
+                <input placeholder="手机" required="required" autofocus="autofocus" type="tel" name="user[phone]" >
+                <input type="hidden" name="user[client]">
+            </div>
+        <input placeholder="验证码" required="required" autofocus="autofocus" type="text" name="user[phone_token]" style="margin-top: 20px;border-radius: 3px;margin-left: -118px;width: 210px;border-right:0px solid;">
+        <input type="button" value="获取验证码" class="get-code-btn" data-url="/zh-CN/verify_tokens/phone" style="position: absolute;text-align: center;color: #50A4FF;font-size: 14px;cursor: pointer;border-left: 1px solid #F5F5F7;margin-top: 20px;margin-left: 0px;border-radius: 0px 3px 3px 0px;height: 44px;width: 100px;" >
+        </div>
+
+        <div class="login-btn">
+            <input type="submit" name="commit" value="免费注册" data-disable-with="免费注册" style="background-color:#ff4f4c;border: 0px solid;color: #ffffff;">
+        </div>
+        <div class="login-email">
+            <a href="#" style="margin-left: -70px;">邮箱注册</a>
+            <a href="#">注册遇到问题？</a>
+        </div>
+     </form>   
+     
+    </div>
+    <div class="layui-tab-item">
+        <!-- 登录 -->
+             <form id="reg_with_phone" method="post">
+        <input type="hidden" name="UTF-8" value="✓">
+        <div class="form-inputs">
+            <div class="form-input input-with-prefix">
+                <span class="prefix">+86</span>
+                <input placeholder="手机" required="required" autofocus="autofocus" type="tel" name="user[phone]" >
+                <input type="hidden" name="user[client]">
+            </div>
+        <input placeholder="验证码" required="required" autofocus="autofocus" type="text" name="user[phone_token]" style="margin-top: 20px;border-radius: 3px;margin-left: -118px;width: 210px;border-right:0px solid;">
+        <input type="button" value="获取验证码" class="get-code-btn" data-url="/zh-CN/verify_tokens/phone"  >
+        </div>
+
+        <div class="login-btn">
+            <input type="submit" name="commit" value="登录" data-disable-with="登录" style="background-color:#ff4f4c;border: 0px solid;color: #ffffff;">
+        </div>
+        <div class="login-email">
+            <a href="#" style="margin-left: -80px;">邮箱密码登录</a>
+            <a href="#">登录遇到问题？</a>
+        </div>
+     </form>   
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="fast-login-divider">
+      <span class="line">——</span>
+      <span class="text">一键快捷登录</span>
+      <span class="line">——</span>
+      </div>
+
+      <div class="footer-fast-login">
+        <a href="###"><i class="layui-icon layui-icon-login-wechat" style="font-size: 50px;"></i><br><br>微信登录</a> 
+          
+        <a href="###"><i class="layui-icon layui-icon-login-wechat" style="font-size: 50px;"></i><br><br>微信登录</a> 
+          
+      </div>
+  </div>
+</div> 
+
+
+<!-- 选项卡 -->
+<script>
+//注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+layui.use('element', function(){
+  var element = layui.element;
+  
+  //…
+});
+</script>
+
+
+
+
+   </div>
+</body>
+
+</html>
