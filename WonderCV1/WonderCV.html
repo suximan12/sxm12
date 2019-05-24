@@ -10,153 +10,152 @@
     <script type="text/javascript" src="layui.js"></script>
     <script type="text/javascript" src="layui.all.js"></script>
 
-<body id="emails-my">
-    <header>
-      <div class="loog"><img src="images/WonderCV/123.png"></div>
-      <div class="nav">
-        <ul>
-          <li>简历模板</li>
-          <li>求职信</li>
-          <li>简历攻略</li>
-          <li>简历诊断</li>
-          <li>名企内推</li>
-        </ul>
-      </div>
-      <div class="nav-raght">
-        <img style="width: 20px;height: 20px;margin-right: 8px;margin-top: 3px;" src="images/WonderCV/download4 (2).png">
-        <div style="height: 26px;width: 2px;background: #DEDFE1;margin-right: 18px;"></div>
-        <a style="font-size: 12px;background: none;border:1px red solid;color:red;padding: 0 16px;width: 30px;height:25px;white-space: nowrap;margin-top: -4px;line-height: 24px;"
-          class="layui-btn layui-btn-sm layui-btn-danger">登录</a>
-        <a style="margin-left:10px;padding: 0 16px;font-size: 12px; width: 30px;height:25px;white-space: nowrap;margin-top: -4px;line-height: 24px;" class="zhuce layui-btn layui-btn-sm layui-btn-danger">注册</a>
-      </div>
+    <body id="emails-my">
+        <header>
+            <div class="loog"><img src="images/WonderCV/123.png"></div>
+            <div class="nav">
+                <ul>
+                    <li>简历模板</li>
+                    <li>求职信</li>
+                    <li>简历攻略</li>
+                    <li>简历诊断</li>
+                    <li>名企内推</li>
+                </ul>
+            </div>
+            <div class="nav-raght">
+                <img style="width: 20px;height: 20px;margin-right: 8px;margin-top: 3px;" src="images/WonderCV/download4 (2).png">
+                <div style="height: 26px;width: 2px;background: #DEDFE1;margin-right: 18px;"></div>
+                <a style="font-size: 12px;background: none;border:1px red solid;color:red;padding: 0 16px;width: 30px;height:25px;white-space: nowrap;margin-top: -4px;line-height: 24px;" class="layui-btn layui-btn-sm layui-btn-danger">登录</a>
+                <a style="margin-left:10px;padding: 0 16px;font-size: 12px; width: 30px;height:25px;white-space: nowrap;margin-top: -4px;line-height: 24px;" class="zhuce layui-btn layui-btn-sm layui-btn-danger">注册</a>
+            </div>
 
-    </header>
-
+        </header>
 
 
 
-    <!-- 内容部分 -->
-    <div class="container">
-        <div class="center">
-        <div class="header header-v3"></div>
-        <div class="title_q">求职信 Jobmail.vip 专业邮箱</div>
-        <div class="title_q1" style="display: none;">欢迎使用 Jobmail.vip 邮箱</div>
-        <div class="title_t">提供多场景求职邮件模板，用一封吸引 HR 的求职信，助你大幅提高简历通过率</div>
-         <div class="title_t1" style="display: none;">专业求职邮箱，助你大幅提高简历通过率</div>
-        </div>
-        <div class="title_a">
-            <div class="site-demo-button" id="layerDemo" >
-                <button data-method="offset" data-type="auto" class="layui-btn layui-btn-normal" style="margin:0 auto;">立即使用</button>
-                <button data-method="offset" data-type="auto" class="layui-btn1 layui-btn-normal" style="display: none;margin:0 auto;">立即使用</button>
+
+        <!-- 内容部分 -->
+        <div class="container">
+            <div class="center">
+                <div class="header header-v3"></div>
+                <div class="title_q">求职信 Jobmail.vip 专业邮箱</div>
+                <div class="title_q1" style="display: none;">欢迎使用 Jobmail.vip 邮箱</div>
+                <div class="title_t">提供多场景求职邮件模板，用一封吸引 HR 的求职信，助你大幅提高简历通过率</div>
+                <div class="title_t1" style="display: none;">专业求职邮箱，助你大幅提高简历通过率</div>
+            </div>
+            <div class="title_a">
+                <div class="site-demo-button" id="layerDemo">
+                    <button data-method="offset" data-type="auto" class="layui-btn layui-btn-normal" style="margin:0 auto;">立即使用</button>
+                    <button data-method="offset" data-type="auto" class="layui-btn1 layui-btn-normal" style="display: none;margin:0 auto;">立即使用</button>
+                </div>
+            </div>
+
+            <div class="content">
+                <img src="images/WonderCV/sxm.png" class="content_d">
+                <img src="images/WonderCV/sxm1.png" class="content_d1" style="display: none;">
             </div>
         </div>
 
-        <div class="content">
-            <img src="images/WonderCV/sxm.png" class="content_d">
-            <img src="images/WonderCV/sxm1.png" class="content_d1" style="display: none;">
-        </div>
-    </div>
 
 
 
 
 
 
+        <script>
+            layui.use('layer', function() { //独立版的layer无需执行这一句
+                var $ = layui.jquery,
+                    layer = layui.layer; //独立版的layer无需执行这一句
 
-    <script>
-        layui.use('layer', function() { //独立版的layer无需执行这一句
-            var $ = layui.jquery,
-                layer = layui.layer; //独立版的layer无需执行这一句
+                //触发事件
+                var active = {
+                    setTop: function() {
+                        var that = this;
+                        //多窗口模式，层叠置顶
+                        layer.open({
+                            type: 2 //此处以iframe举例
+                                ,
+                            title: '当你选择该窗体时，即会在最顶端',
+                            area: ['390px', '260px'],
+                            shade: 0,
+                            maxmin: true,
+                            offset: [ //为了演示，随机坐标
+                                Math.random() * ($(window).height() - 300), Math.random() * ($(window).width() - 390)
+                            ],
+                            content: '//layer.layui.com/test/settop.html',
+                            btn: ['继续弹出', '全部关闭'] //只是为了演示
+                                ,
+                            yes: function() {
+                                $(that).click();
+                            },
+                            btn2: function() {
+                                layer.closeAll();
+                            }
 
-            //触发事件
-            var active = {
-                setTop: function() {
-                    var that = this;
-                    //多窗口模式，层叠置顶
-                    layer.open({
-                        type: 2 //此处以iframe举例
                             ,
-                        title: '当你选择该窗体时，即会在最顶端',
-                        area: ['390px', '260px'],
-                        shade: 0,
-                        maxmin: true,
-                        offset: [ //为了演示，随机坐标
-                            Math.random() * ($(window).height() - 300), Math.random() * ($(window).width() - 390)
-                        ],
-                        content: '//layer.layui.com/test/settop.html',
-                        btn: ['继续弹出', '全部关闭'] //只是为了演示
-                            ,
-                        yes: function() {
-                            $(that).click();
-                        },
-                        btn2: function() {
-                            layer.closeAll();
-                        }
+                            zIndex: layer.zIndex //重点1
+                                ,
+                            success: function(layero) {
+                                layer.setTop(layero); //重点2
+                            }
+                        });
+                    },
+                    notice: function() {
+                        //示范一个公告层
+                        layer.open({
+                            type: 1,
+                            title: false //不显示标题栏
+                                ,
+                            closeBtn: false,
+                            area: '300px;',
+                            shade: 0.8,
+                            id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                                ,
+                            btn: ['火速围观', '残忍拒绝'],
+                            btnAlign: 'c',
+                            moveType: 1 //拖拽模式，0或者1
+                                ,
+                            content: '<div style="padding: 50px; line-height: 22px; background-color: #393D49; color: #fff; font-weight: 300;">你知道吗？亲！<br>layer ≠ layui<br><br>layer只是作为Layui的一个弹层模块，由于其用户基数较大，所以常常会有人以为layui是layerui<br><br>layer虽然已被 Layui 收编为内置的弹层模块，但仍然会作为一个独立组件全力维护、升级。<br><br>我们此后的征途是星辰大海 ^_^</div>',
+                            success: function(layero) {
+                                var btn = layero.find('.layui-layer-btn');
+                                btn.find('.layui-layer-btn0').attr({
+                                    href: 'http://www.layui.com/',
+                                    target: '_blank'
+                                });
+                            }
+                        });
+                    },
+                    offset: function(othis) {
+                        var type = othis.data('type'),
+                            text = othis.text();
 
-                        ,
-                        zIndex: layer.zIndex //重点1
-                            ,
-                        success: function(layero) {
-                            layer.setTop(layero); //重点2
-                        }
-                    });
-                },
-                notice: function() {
-                    //示范一个公告层
-                    layer.open({
-                        type: 1,
-                        title: false //不显示标题栏
-                            ,
-                        closeBtn: false,
-                        area: '300px;',
-                        shade: 0.8,
-                        id: 'LAY_layuipro' //设定一个id，防止重复弹出
-                            ,
-                        btn: ['火速围观', '残忍拒绝'],
-                        btnAlign: 'c',
-                        moveType: 1 //拖拽模式，0或者1
-                            ,
-                        content: '<div style="padding: 50px; line-height: 22px; background-color: #393D49; color: #fff; font-weight: 300;">你知道吗？亲！<br>layer ≠ layui<br><br>layer只是作为Layui的一个弹层模块，由于其用户基数较大，所以常常会有人以为layui是layerui<br><br>layer虽然已被 Layui 收编为内置的弹层模块，但仍然会作为一个独立组件全力维护、升级。<br><br>我们此后的征途是星辰大海 ^_^</div>',
-                        success: function(layero) {
-                            var btn = layero.find('.layui-layer-btn');
-                            btn.find('.layui-layer-btn0').attr({
-                                href: 'http://www.layui.com/',
-                                target: '_blank'
-                            });
-                        }
-                    });
-                },
-                offset: function(othis) {
-                    var type = othis.data('type'),
-                        text = othis.text();
+                        layer.open({
+                            type: 1,
+                            offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
+                                ,
+                            id: 'layerDemo' + type //防止重复弹出
+                                ,
+                            content: '<div style="padding: 20px 100px;">' + text + '</div>',
+                            btn: '关闭全部',
+                            btnAlign: 'c' //按钮居中
+                                ,
+                            shade: 0 //不显示遮罩
+                                ,
+                            yes: function() {
+                                layer.closeAll();
+                            }
+                        });
+                    }
+                };
 
-                    layer.open({
-                        type: 1,
-                        offset: type //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
-                            ,
-                        id: 'layerDemo' + type //防止重复弹出
-                            ,
-                        content: '<div style="padding: 20px 100px;">' + text + '</div>',
-                        btn: '关闭全部',
-                        btnAlign: 'c' //按钮居中
-                            ,
-                        shade: 0 //不显示遮罩
-                            ,
-                        yes: function() {
-                            layer.closeAll();
-                        }
-                    });
-                }
-            };
+                $('#layerDemo .layui-btn').on('click', function() {
+                    var othis = $(this),
+                        method = othis.data('method');
+                    active[method] ? active[method].call(this, othis) : '';
+                });
 
-            $('#layerDemo .layui-btn').on('click', function() {
-                var othis = $(this),
-                    method = othis.data('method');
-                active[method] ? active[method].call(this, othis) : '';
             });
-
-        });
-    </script>
-</body>
+        </script>
+    </body>
 
 </html>
