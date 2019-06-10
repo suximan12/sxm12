@@ -4,7 +4,7 @@
         <li>
           <p>
             <a href="#"><img src="https://i.loli.net/2019/06/06/5cf8b69ac8ff127392.jpg" alt="wuxiaobu.jpg" title="wuxiaobu.jpg" />
-            <span>吴晓布</span></a>
+            <span>吴xiao布</span></a>
             <span>2017.12.06</span>
             <span>21:00</span>
           </p>
@@ -25,7 +25,7 @@
         <li>
                    <p>
             <a href="#"><img src="https://i.loli.net/2019/06/06/5cf8b69ac8ff127392.jpg" alt="wuxiaobu.jpg" title="wuxiaobu.jpg" />
-            <span>吴晓布</span></a>
+            <span>吴xiao布</span></a>
             <span>2017.12.06</span>
             <span>21:00</span>
           </p>

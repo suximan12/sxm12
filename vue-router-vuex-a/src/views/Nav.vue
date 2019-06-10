@@ -17,7 +17,7 @@ export default {
 .nav{
   display: flex;
   width: 55%;
-  background-color: aquamarine;
+  // background-color: aquamarine;
   border-bottom:1px solid #969696;
   ul{
     width: 40%;
