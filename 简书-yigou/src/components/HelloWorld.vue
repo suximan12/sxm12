@@ -10,9 +10,9 @@
           </p>
           <div class="card_c">
           <h4>湖南|烟雨凤凰古城</h4>
-          <span>
-          1.凤凰古城，边城浪子。如果我是边城，那么你就是浪子。<br> 一次偶然，我和詹姆斯吃着饭，詹姆斯说来了这么久也没<br>有出去，不如周末开车去哪里转转。我...
-          </span>
+         <div class="font">
+          1.凤凰古城，边城浪子。如果我是边城，那么你就是浪子。一次偶然，我和詹姆斯吃着饭，詹姆斯说来了这么久也没有出去，不如周末开车去哪里转转。我...
+         </div>
           <p><img src="https://i.loli.net/2019/06/06/5cf8b72c2d8f729131.jpg" alt="gucheng.jpg" title="gucheng.jpg" />
           </p>
           </div>
@@ -26,9 +26,9 @@
           </p>
           <div class="card_c">
           <h4>湖南|烟雨凤凰古城</h4>
-          <span>
-          1.凤凰古城，边城浪子。如果我是边城，那么你就是浪子。<br> 一次偶然，我和詹姆斯吃着饭，詹姆斯说来了这么久也没<br>有出去，不如周末开车去哪里转转。我...
-          </span>
+          <div class="font">
+          1.凤凰古城，边城浪子。如果我是边城，那么你就是浪子。一次偶然，我和詹姆斯吃着饭，詹姆斯说来了这么久也没有出去，不如周末开车去哪里转转。我...
+          </div>
           <p><img src="https://i.loli.net/2019/06/06/5cf8b72c2d8f729131.jpg" alt="gucheng.jpg" title="gucheng.jpg" />
           </p>
           </div>
@@ -68,12 +68,7 @@ export default {
            img{
            width: 30px;
            border-radius: 15px;
-         }
-         span{
-            color:#333333;
-            margin-left: 10px;
-            font-size: 16px;
-           }
+         }        
          }
          span{
            font-size: 12px;
@@ -86,22 +81,44 @@ export default {
           h4{
           color: #333333;
           }
-          span{
+          .font{
+          width: 70%;
           line-height: 30px;
           color: #A5A5A5;
-          position: absolute;
-          margin-top: -10px;
+          white-space: normal;
           }
           p{
             text-align: end;
           img{
-            width: 20%;
-            margin-right: 30px;
-            margin-top: -45px;
+            width: 10%;
+            position: absolute;
+            margin-left: -160px;
+            margin-top: -120px;
           }
         }
        }
     }
   }
+}
+@media screen and (max-width: 745px) {
+   .hello{
+     width: 80%;
+     margin: 0 auto;
+     ul{
+       li{
+         width: 100%;
+         .card_c{
+           .font{
+             width: 100%
+           }
+           p{
+             img{
+               display: none;
+             }
+           }
+         }
+       }
+     }
+   }
 }
 </style>

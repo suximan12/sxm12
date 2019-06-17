@@ -22,12 +22,11 @@
   width: 690px;
 }
 #nav {
-  
   img{
     width: 100%;
   }
   .zujian{
-    margin-top: 30px;
+     margin-top: 30px;
      padding: 13px 0px 10px 5px;
      border-bottom: 1px solid #f0f0f0;
      line-height: 35px;
@@ -47,7 +46,6 @@
        width: 5%;
        margin-left: 30px;
        text-decoration: none;
-      //  background-color: bisque;
        i{
          font-size: 18px;
          font-weight: 700;
@@ -74,5 +72,18 @@
   }
     }
   
+@media screen and (max-width: 745px){
+  #nav{
+    .img{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+  .zujian{
+    text-align: center;
+    
+     }
+   }
+  }
 
 </style>
