@@ -16,14 +16,15 @@
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // text-align: center;
   margin: 0 auto;
   color: #2c3e50;
-  width: 690px;
+  width: 50%;
+  // display: flex;
 }
 #nav {
   img{
     width: 100%;
+    margin:0 auto;
   }
   .zujian{
      margin-top: 30px;
@@ -73,15 +74,24 @@
     }
   
 @media screen and (max-width: 745px){
+   #appi{
+     width: 100%;
+   }
   #nav{
+    
     .img{
-      margin: 0;
-      padding: 0;
       width: 100%;
     }
   .zujian{
-    text-align: center;
-    
+    text-align:center;
+    .home{
+         margin-right: 80px;
+    }
+    .about{
+      
+        // margin-left: 80px;
+      
+    }
      }
    }
   }

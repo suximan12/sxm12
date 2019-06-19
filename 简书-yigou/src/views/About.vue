@@ -28,7 +28,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    // background-color:aqua;
     li{
       list-style: none;
        border-bottom:1px solid #969696;
@@ -57,12 +56,13 @@
          }
        }
        .card_c{
-         margin-top: -20px;
+         margin-top: -25px;
           h4{
           color: #333333;
           }
            .font{
           width: 70%;
+          margin-top:-10px;
           line-height: 30px;
           color: #A5A5A5;
           white-space: normal;
@@ -90,15 +90,19 @@
 }
 
 @media screen and (max-width: 745px) {
-   .about{
-     width: 80%;
+  .about{
+     width: 95%;
      margin: 0 auto;
      ul{
        li{
          width: 100%;
          .card_c{
+           h4{
+             font-size: 24px;
+           }
            .font{
-             width: 100%
+             width: 100%;
+             font-size: 18px;
            }
            p{
              img{

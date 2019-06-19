@@ -18,7 +18,7 @@
           </div>
         </li>
         <li>
-                   <p>
+           <p>
             <a href="#"><img src="https://i.loli.net/2019/06/06/5cf8b69ac8ff127392.jpg" alt="wuxiaobu.jpg" title="wuxiaobu.jpg" />
             <span>吴晓布</span></a>
             <span>2017.12.06</span>
@@ -60,7 +60,7 @@ export default {
        display: flex;
        flex-direction: column;
        text-align: left;
-       padding-bottom: 24px;
+       padding-bottom: 15px;
        p{
         height: auto;
          a{
@@ -68,21 +68,22 @@ export default {
            img{
            width: 30px;
            border-radius: 15px;
-         }        
+         }     
          }
          span{
-           font-size: 12px;
+           font-size: 18px;
            color: #969696;
            padding: 0px 10px;
          }
        }
        .card_c{
-         margin-top: -20px;
+         margin-top: -25px;
           h4{
           color: #333333;
           }
           .font{
           width: 70%;
+          margin-top:-10px;
           line-height: 30px;
           color: #A5A5A5;
           white-space: normal;
@@ -102,14 +103,18 @@ export default {
 }
 @media screen and (max-width: 745px) {
    .hello{
-     width: 80%;
+     width: 95%;
      margin: 0 auto;
      ul{
        li{
          width: 100%;
          .card_c{
+           h4{
+             font-size: 24px;
+           }
            .font{
-             width: 100%
+             width: 100%;
+             font-size: 18px;
            }
            p{
              img{
