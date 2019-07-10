@@ -1,0 +1,5 @@
+<!--pages/kuanshi/kuanshi.wxml-->
+<!-- <text>pages/kuanshi/kuanshi.wxml</text> -->
+<view class='kuanshi'>
+<image src='../../img/1.gif'></image>
+</view>

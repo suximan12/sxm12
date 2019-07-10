@@ -1,0 +1,33 @@
+/* pages/registered/registered.wxss */
+@import "../lib/weui.wxss";
+ 
+.registered{
+  margin-top: 150rpx;
+}
+.page-section{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.weui-cells{
+  color: #606060;
+}
+.weui-input{
+  margin-left: 80rpx;
+  font-size: 28rpx;
+}
+.weui-inpu{
+  margin-left: 80rpx;
+  font-size: 28rpx;
+  color: #D75E51;
+}
+.registered_btn{
+  width: 80%;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-top:80rpx;
+  border-radius: 50rpx;
+  color: #fff;
+  background-color: #D05746;
+}

@@ -1,0 +1,6 @@
+/* pages/kuanshi/kuanshi.wxss */
+.kuanshi image{
+  margin: 0 auto;
+  width: 98%;
+  height: 1000rpx;
+}

@@ -1,0 +1,30 @@
+<!--logs.wxml-->
+<!-- <view>我的</view> -->
+<view class='mine_tou'>
+<navigator url='../registered/registered'>注册</navigator>
+<navigator url='../login/login'>登录</navigator>
+<navigator><image src='../../img/894.jpg'></image>
+</navigator>
+<navigator><text>小芒果</text></navigator>
+</view>
+<!-- 第二块 -->
+<view class='mine_second'>
+<view class='mine_second_img'><image src='../../img/我的动态.png'></image><image src='../../img/订单.png'></image>
+                          <image src='../../img/优惠券.png'></image><image src='../../img/我的钱包.png'></image></view>
+<view class='mine_second_nav'><navigator>购物车</navigator><navigator>订单</navigator>
+                          <navigator>优惠券</navigator><navigator>我的钱包</navigator></view>
+<view class='mine_second_text'><text>2</text><text>3</text>
+                              <text>0</text><text>0</text></view>
+</view>
+<!-- 第三块 -->
+<view class='mine_third'>
+<view class='mine_third_d'><text>我的动态</text><text>10</text></view>
+<view class='mine_third_d'><text>性别</text><text>女士</text></view>
+<view class='mine_third_d'><text>电话</text><text>15130701182</text></view>
+<view class='mine_third_d'><text>地区</text><text>石家庄</text></view>
+</view>
+<!-- 第四块 -->
+<view class='mine_fourth'>
+<navigator url='../setup/setup'>设置</navigator>
+<text>关于我</text>
+</view>

@@ -1,0 +1,62 @@
+<!--pages/dynamic/dynamic.wxml-->
+<!-- <text>动态</text> -->
+<!-- 整个 -->
+<view class='dynamic'>
+<!-- 块 -->
+<view class='dynamic_k'>
+<!-- 块的上部分 -->
+<view class='dynamic_k_t'>
+<view class='dynamic_k_tl'><image src='../../img/893.jpg'></image></view>
+<view class='dynamic_k_tr'><text>派大星</text><text>2019-06-21</text></view>
+</view>
+<!-- 块的中间部分 -->
+<view class='dynamic_k_c'>
+<view class='dynamic_k_ct'><text>旋涡流动的星辰，香榭丽舍的橱窗，灰水晶天空，既有星空的神秘又有深海的幽静感！！</text>
+<text>灵魂仍然存在现代的时尚里，精神还将飘进未来新时尚的风</text></view>
+<view class='dynamic_k_cb'>
+<image src='../../img/891.jpg'></image><image src='../../img/891.jpg'></image><image src='../../img/891.jpg'></image><image src='../../img/891.jpg'></image>
+</view>
+</view>
+<!-- 块的下部分 -->
+<view class='dynamic_k_b'>
+<view class='dynamic_k_bl'><text>摄影师：小峰</text></view>
+<view class='dynamic_k_br'>
+<image src='../../img/xinaixin.png'></image>
+<text>321</text>
+<image src='../../img/kongxinxingxing.png'></image>
+<text>1567</text>
+</view>
+</view>
+</view>
+
+
+<!-- 第二个块 -->
+<!-- 块 -->
+<view class='dynamic_k'>
+<!-- 块的上部分 -->
+<view class='dynamic_k_t'>
+<view class='dynamic_k_tl'><image src='../../img/893.jpg'></image></view>
+<view class='dynamic_k_tr'><text>派大星</text><text>2019-06-21</text></view>
+</view>
+<!-- 块的中间部分 -->
+<view class='dynamic_k_c'>
+<view class='dynamic_k_ct'><text>旋涡流动的星辰，香榭丽舍的橱窗，灰水晶天空，既有星空的神秘又有深海的幽静感！！</text>
+<text>灵魂仍然存在现代的时尚里，精神还将飘进未来新时尚的风</text></view>
+<view class='dynamic_k_cb'>
+<image src='../../img/891.jpg'></image><image src='../../img/891.jpg'></image><image src='../../img/891.jpg'></image><image src='../../img/891.jpg'></image>
+</view>
+</view>
+<!-- 块的下部分 -->
+<view class='dynamic_k_b'>
+<view class='dynamic_k_bl'><text>摄影师：小峰</text></view>
+<view class='dynamic_k_br'>
+<image src='../../img/xinaixin.png'></image>
+<text>321</text>
+<image src='../../img/kongxinxingxing.png'></image>
+<text>1567</text>
+</view>
+</view>
+</view>
+
+
+</view>

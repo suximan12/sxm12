@@ -1,0 +1,164 @@
+/* tab切换 */
+.page {
+  height: 90rpx;
+ background-color: #D05746;
+}
+  
+.swiper-tab {
+ display: flex;
+ flex-direction: row;
+ line-height: 80rpx;
+ /* border-bottom: 2rpx solid #777; */
+}
+  
+.tab-item {
+ width: 33.3%;
+ text-align: center;
+ font-size: 15px;
+ color: #fff;
+}
+  
+.swiper {
+ height: 1000rpx;
+ /* background: pink; */
+}
+  
+.on {
+ color: #fff;
+ border-bottom: 5rpx solid #fff;
+}
+
+
+
+
+/* 风格内容 */
+.fengge_tou{
+  margin-top: 20rpx;
+  width: 100%;
+}
+.fengge_tou image{
+  width: 100%;
+  height: 340rpx;
+}
+.fengge_si{
+  width: 95%;
+  margin: 0 auto;
+  height: 600rpx;
+  margin-top: 50rpx;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.fengge_si image{
+  width: 45%;
+  height: 240rpx;
+}
+
+/* 预定内容 */
+.yuding_zhuti{
+  width: 95%;
+  height: 60rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.yuding_zhuti text{
+  color: red;
+}
+.yuding_zhifu{
+  width: 95%;
+  height: 600rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  /* background-color: pink; */
+}
+.yuding_zhifu text:nth-child(1){
+  margin-left: 30%;
+}
+.yuding_zhifu_img{
+  width: 100%;
+  height: 80rpx;
+  border-top: 1px solid #EBEBEB;
+  /* background-color:yellow; */
+}
+.yuding_zhifu_img image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+.yuding_zhifu_img view{
+  margin-left: 100rpx;
+  margin-top: -65rpx;
+}
+
+/* 定制内容 */
+.dingzhi_tou{
+  width: 95%;
+  height: 500rpx;
+  margin: 0 auto;
+  /* background-color:aquamarine; */
+}
+.dingzhi_tou image{
+  width: 100%;
+  height: 300rpx;
+  /* margin-top: 20rpx; */
+  border-radius: 20rpx;
+}
+.dingzhi_jiage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+}
+.dingzhi_jiage text{
+  color: #BDBDBD;
+  font-size: 28rpx;
+}
+.dingzhi_jiagel text:nth-child(1){
+  font-size: 32rpx;
+  color: red;
+}
+.dingzhi_jiagel text:nth-child(2){
+  font-size: 24rpx;
+  color: #BDBDBD;
+  margin-left: 10rpx;
+  text-decoration:line-through;
+}
+.dingzhi_text{
+  font-size: 30rpx;
+}
+.dingzhi_dl{
+  width: 60%;
+  float: left;
+  height: 50rpx;
+  font-size: 28rpx;
+  /* background-color: wheat; */
+}
+.dingzhi_dl image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+.dingzhi_dl text{
+  line-height: 70rpx;
+}
+.dingzhi_dr{
+  width: 40%;
+  float: left;
+  /* background-color: blue; */
+}
+.dingzhi_dr button{
+  background-color: #D05746;
+  width: 50%;
+  height: 50rpx;
+  float: right;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 40rpx;
+}

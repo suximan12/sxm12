@@ -1,0 +1,27 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<view class='login_tou'>
+</view>
+<view class='login_second'>
+<image src='../../img/894.jpg'></image>
+<view class='login_input'>
+<text>请输入账号或邮箱</text>
+<text>请输入密码</text>
+</view>
+<button>登录</button>
+<view class='login_nav'>
+<navigator url='../registered/registered'>立即注册</navigator>
+<navigator>忘记密码?</navigator>
+</view>
+
+
+<!-- 结束 -->
+</view>
+<view class='pingtai'>
+<text>———第三方登录平台———</text>
+<view class='pingtai_img'>
+<image src='../../img/weixin.png'></image>
+<image src='../../img/qq.png'></image>
+<image src='../../img/weibo.png'></image>
+</view>
+</view>

@@ -1,0 +1,153 @@
+/* pages/dress/dress.wxss */
+/* tab切换 */
+.page {
+  height: 90rpx;
+ background-color: #D05746;
+}
+  
+.swiper-tab {
+ display: flex;
+ flex-direction: row;
+ line-height: 80rpx;
+ /* border-bottom: 2rpx solid #777; */
+}
+  
+.tab-item {
+ width: 33.3%;
+ text-align: center;
+ font-size: 15px;
+ color: #fff;
+}
+  
+.swiper {
+ height: 1000rpx;
+ /* background: pink; */
+}
+  
+.on {
+ color: #fff;
+ border-bottom: 5rpx solid #fff;
+}
+
+/* 图库部分 */
+.img_t{
+  width: 98%;
+  height: 600rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  /* background-color: blanchedalmond; */
+}
+.img_tl{
+  width: 48%;
+  float: left;
+}
+.img_tl image{
+  width: 100%;
+  height: 600rpx;
+  border-radius: 20rpx;
+}
+.img_tr{
+  width: 48%;
+  height: 600rpx;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img_tr image{
+  width: 100%;
+  height: 290rpx;
+  border-radius: 20rpx;
+}
+.img_b{
+  width: 98%;
+  height:350rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: blanchedalmond; */
+}
+.img_b image{
+  width: 48%;
+  height:350rpx; 
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+}
+
+/* 直播部分 */
+.zhibo{
+  width: 95%;
+  height: 370rpx;
+  /* background-color: plum; */
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+.zhibo image{
+  width: 100%;
+  height: 300rpx;
+  border-radius: 20rpx;
+}
+.zhibo text{
+  margin-left: 20rpx;
+}
+
+/* 论坛部分 */
+.luntan{
+  width: 95%;
+  height: 400rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid #DFDFDF;
+  /* background-color: powderblue; */
+}
+.luntan image{
+  width: 100%;
+  height: 320rpx;
+  border-radius: 0rpx 0rpx 20rpx 20rpx;
+}
+.luntan_td{
+  width: 100%;
+  height: 80rpx;
+  text-align: right;
+  /* background: palegreen; */
+}
+.luntan_td image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+.luntan_td text{
+  font-size: 28rpx;
+}
+.luntan_d{
+  width: 95%;
+  height: 150rpx;
+  margin: 0 auto;
+  /* background-color: palegreen; */
+  border-bottom: 1px solid #DFDFDF;
+}
+.luntan_d image{
+  width: 120rpx;
+  height: 120rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  border-radius: 60rpx;
+}
+.luntan_d text{
+  float: left;
+  margin-left: 20rpx;
+}
+.luntan_d text:nth-child(2){
+  margin-top: 10rpx;
+  font-size: 38rpx;
+}
+.luntan_d text:nth-child(3){
+  font-size: 24rpx;
+  color: #A9A9A9;
+  letter-spacing: 8rpx;
+  margin-left: 160rpx;
+  margin-top: -70rpx;
+}

@@ -1,0 +1,35 @@
+/* pages/setup/setup.wxss */
+  .setip_big{
+    width: 98%;
+    height: 800rpx;
+    margin: 0 auto;
+    /* background-color: pink; */
+  }
+  .setip_bigs{
+    width: 95%;
+    height: 120rpx;
+    margin: 0 auto;
+    color: #EEEEEE;
+    /* background-color: yellowgreen; */
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 120rpx; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .setip_bigs text{
+    padding-left: 30rpx;
+    color: #323232;
+  }
+  .setip_bigs text:nth-child(2){
+    color: #323232;
+    padding-left: 350rpx;
+  }
+   .setip_big button{
+     width: 80%;
+     height: 100rpx;
+     line-height: 60rx;
+     color: #fff;
+     background-color: #D05746;
+     border-radius: 50rpx;
+     margin-top: 200rpx;
+   }

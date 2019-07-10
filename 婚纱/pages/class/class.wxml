@@ -1,0 +1,67 @@
+<view class="page">
+  
+ <!--顶部导航栏-->
+ <view class="swiper-tab">
+  <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">风格</view>
+  <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">预定</view>
+  <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">定制</view>
+ </view>
+  
+ <!--内容主体-->
+ <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">
+  <!-- 风格 -->
+  <swiper-item>
+   <view class='fengge_tou'><image src='../../img/89.jpg'></image></view>
+   <view class='fengge_si'>
+   <image src='../../img/891.jpg'></image>
+   <image src='../../img/892.jpg'></image>
+   <image src='../../img/893.jpg'></image>
+   <image src='../../img/894.jpg'></image>
+   </view>
+  </swiper-item>
+  <!-- 预定 -->
+  <swiper-item>
+   <view class='fengge_tou'><image src='../../img/89.jpg'></image></view>
+   <view class='yuding_zhuti'><view>主题：小清新</view><view>预订价：<text>￥3999</text></view></view>
+   <view class='yuding_zhifu'><text>选择支付方式</text>
+   
+   <view class='yuding_zhifu_img'><image src='../../img/zhifubao.png'></image><view>支付宝</view></view>
+   <view class='yuding_zhifu_img'><image src='../../img/weixin.png'></image><view>微信支付</view></view>
+   <view class='yuding_zhifu_img'><image src='../../img/nongye.png'></image><view>农业银行支付</view></view>
+   <view class='yuding_zhifu_img'><image src='../../img/jianshe.png'></image><view>建设银行支付</view></view>
+   <view class='yuding_zhifu_img'><image src='../../img/gongshang.png'></image><view>工商银行支付</view></view>
+   <view class='yuding_zhifu_img'><image src='../../img/zhaoshang.png'></image><view>招商银行支付</view></view>
+   
+   </view>
+  </swiper-item>
+  <!-- 定制 -->
+  <swiper-item>
+   <view class='dingzhi_tou'><image src='../../img/89.jpg'></image>
+   <view class='dingzhi_jiage'>
+   <view class='dingzhi_jiagel'>现价：<text>￥2999</text><text>3999</text></view><view><text>2019-6-26</text></view></view>
+   <view class='dingzhi_text'>【韩式风格】凸现新娘的甜美和温顺，近年来受到很多年轻人的追捧...</view>
+    <view class='dingzhi_d'>
+      <view class='dingzhi_dl'>
+      <image src='../../img/dianzan.png'></image><text>3666</text>
+      <image src='../../img/xiaoxi.png'></image><text>520</text>
+      <image src='../../img/kongxinxingxing.png'></image><text>1235</text>
+      </view>
+       <view class='dingzhi_dr'><button>预定</button></view>
+    </view>
+   </view>
+   <view class='dingzhi_tou'><image src='../../img/89.jpg'></image>
+   <view class='dingzhi_jiage'>
+   <view class='dingzhi_jiagel'>现价：<text>￥2999</text><text>3999</text></view><view><text>2019-6-26</text></view></view>
+   <view class='dingzhi_text'>【韩式风格】凸现新娘的甜美和温顺，近年来受到很多年轻人的追捧...</view>
+    <view class='dingzhi_d'>
+      <view class='dingzhi_dl'>
+      <image src='../../img/dianzan.png'></image><text>3666</text>
+      <image src='../../img/xiaoxi.png'></image><text>520</text>
+      <image src='../../img/kongxinxingxing.png'></image><text>1235</text>
+      </view>
+       <view class='dingzhi_dr'><button>预定</button></view>
+    </view>
+   </view>
+  </swiper-item>
+ </swiper>
+</view>

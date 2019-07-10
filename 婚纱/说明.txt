@@ -1,0 +1,5 @@
+index首页-款式款式介绍（最新款式）-商品详情（小图片及下方文字）
+dress婚纱说
+class分类
+dynamic动态
+mine我的-setup设置-login登录-registered注册

@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="index">
+<!-- 搜索框 -->
+
+ <view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+            <input type="text" class="weui-search-bar__input" placeholder="2019新款婚纱" value="{{wxSearchData.value}}"
+                   bindfocus="wxSerchFocus" bindinput="wxSearchInput" bindblur="wxSearchBlur"  />
+            <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                <icon type="clear" size="13"></icon>
+            </view>
+        </view>
+    </view>
+</view>
+
+ <!-- banner -->
+ <view class='banner'>
+ <image src='../../img/89.jpg'></image>
+ </view>
+ <navigator class='index_text' url='../kuanshi/kuanshi'>最新款式</navigator>
+ <!-- 款式 -->
+ <view class='index_kuanshi'>
+ <navigator class='index_kuanshia' url='../details/details'><image src='../../img/891.jpg'></image>
+ <text>主婚纱2019新款新娘一字肩奢华森系抖音星空婚纱拖尾女</text>
+</navigator>
+ <navigator class='index_kuanshia' url='../details/details'><image src='../../img/892.jpg'></image>
+ <text>主婚纱2019新款新娘一字肩奢华森系抖音星空婚纱拖尾女</text></navigator>
+ <navigator class='index_kuanshia' url='../details/details'><image src='../../img/893.jpg'></image>
+ <text>主婚纱2019新款新娘一字肩奢华森系抖音星空婚纱拖尾女</text></navigator>
+ <navigator class='index_kuanshia' url='../details/details'><image src='../../img/894.jpg'></image>
+ <text>主婚纱2019新款新娘一字肩奢华森系抖音星空婚纱拖尾女</text></navigator>
+ </view>
+</view>

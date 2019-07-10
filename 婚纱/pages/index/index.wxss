@@ -1,0 +1,70 @@
+.index{
+  width: 100%;
+  /* height: 800rpx; */
+  /* background-color: papayawhip; */
+}
+
+
+/* 搜索框 */
+.weui-search-bar{
+  background-color: #D05746;
+}
+.weui-search-bar__form{
+  padding: 3px 20px 10px 20px;
+}
+.weui-search-bar__box{
+  font-size: 13px;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  text-decoration: row;
+  justify-content: center;
+}
+.weui-search-bar__box icon{
+margin-top: 16rpx;
+/* margin-left:160rpx; */
+}
+
+/* banner */
+.banner{
+  width: 100%;
+  height: 400rpx;
+  /* background-color: pink; */
+}
+.banner image{
+  width: 100%;
+  height: 400rpx;
+}
+.index_text{
+  width: 95%;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  /* background-color: pink; */
+}
+.index_kuanshi{
+  width: 95%;
+  height:650rpx;
+  margin: 0 auto;
+  /* background-color: yellowgreen; */
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.index_kuanshia{
+  width: 46%;
+  height: 300rpx;
+  /* border:1px solid #D05746; */
+}
+.index_kuanshia image{
+width: 100%;
+height: 200rpx;
+}
+.index_kuanshia text{
+  /* line-height: 40rpx; */
+  font-size: 24rpx;
+}

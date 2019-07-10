@@ -1,0 +1,82 @@
+/* pages/login/login.wxss */
+.login_tou{
+  width: 100%;
+  height: 300rpx;
+  background-color: #D05746;
+}
+.login_second{
+  width: 80%;
+  height: 800rpx;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  margin-top: -90rpx;
+  background-color: #fff;
+  box-shadow: 10rpx 10rpx 10rpx #e3e3e3;
+}
+.login_second image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top:-100rpx;
+  margin-left:35%;
+  border-radius: 100rpx;
+}
+.login_input{
+  width: 79%;
+  height: 200rpx;
+  color: #BCBCBC;
+  margin: 0 auto;
+  font-size: 34rpx;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login_input text{
+  border-bottom: 1px solid #E0E0E0;
+}
+.login_second button{
+  width: 500rpx;
+  height: 80rpx;
+  margin-top: 30rpx;
+  color: #fff;
+  border-radius: 100rpx;
+  background-color: #D05746;
+}
+.login_nav{
+  width: 80%;
+  height: 100rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  font-size: 34rpx;
+  color: #C4C4C4;
+}
+.login_nav navigator:nth-child(1){
+  float: left;
+}
+.login_nav navigator:nth-child(2){
+  float: right;
+}
+.pingtai{
+  width: 80%;
+  height: 200rpx;
+  font-size: 34rpx;
+  color: #C4C4C4;
+  margin: 0 auto;
+  margin-top: -230rpx;
+  /* background-color: pink; */
+}
+.pingtai text{
+ padding-left: 50rpx;
+}
+.pingtai_img{
+  width: 100%;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.pingtai_img image{
+  width: 100rpx;
+  height: 100rpx;
+  /* margin-top: 100rpx; */
+}

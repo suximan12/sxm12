@@ -1,0 +1,71 @@
+<!--pages/details/details.wxml-->
+<!-- <text>pages/details/details.wxml</text> -->
+<view class='details_page'>
+  <view class='details_banner'>
+  <image src='../../img/89.jpg'></image>
+  <text>【夏季特惠】奢侈租赁套餐女神梦幻系列</text>
+  <view class='details_bannerq'>￥<text>3999</text>
+  <text>￥6000</text>
+  <button>立即购买</button>
+  </view>
+  </view>
+  <view class='details_d'>
+  <view class='details_da'>
+  <text>规格</text><text>10款可选</text>
+  </view>
+  <view class='details_da'>
+  <text>领券</text><text>满1000减100</text>
+  <text>满500减50</text>
+  </view>
+  <view class='details_da'>
+  <text>下单价</text><text>付全款可减160元</text>
+  <button>去下单</button>
+  </view>
+  <view class='details_da'>
+  <text>咨询价</text><text>全场婚纱免费送</text>
+  <button>去下单</button>
+  </view>
+  <view class='details_db'>
+  <text>用户评价（160）</text><text>好评率100%</text>
+  </view>
+
+   <!-- 底部 -->
+  <view class='details_down'>
+
+  <view class='details_downa'>
+
+  <view class='details_downaa'>
+  <image src='../../img/kongxinxingxing.png'></image>
+  <text>私信</text>
+  </view>
+  <view class='details_downaa'>
+  <image src='../../img/kongxinxingxing.png'></image>
+  <text>私信</text>
+  </view>
+  <view class='details_downaa'>
+  <image src='../../img/kongxinxingxing.png'></image>
+  <text>私信</text>
+  </view>
+  <view class='details_downaa'>
+  <image src='../../img/kongxinxingxing.png'></image>
+  <text>私信</text>
+  </view>
+  
+  </view>
+
+  
+  <view class='details_downb'>
+  <button>免费预约</button>
+  </view>
+  </view>
+
+
+  <!-- 第二块结束 -->
+  </view>
+
+
+  
+
+
+<!-- 结束 -->
+</view>
